@@ -104,6 +104,7 @@ p {
   color: #fff;
   background: #333;
   padding: 13px 20px;
+  border: none;
 }
 .btn:hover {
   background: #f7c08a;
@@ -196,6 +197,32 @@ p {
   border-radius: 50%;
   float: left;
   margin-right: 20px;
+}
+
+/* contact-form */
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+#contact-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+.textarea-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+  height: 200px;
+}
+
+#contact-form input:focus,
+.textarea-input:focus {
+  outline: none;
+  border-color: #f4c08a;
 }
 
 /* footer */
