@@ -174,7 +174,7 @@ p {
 
 /* testimonals */
 #testimonials {
-  height: 600px;
+  height: 100%;
   background: url("../img/pexels-photo-11870814.jpeg") no-repeat center
     center/cover;
   padding-top: 100px;
